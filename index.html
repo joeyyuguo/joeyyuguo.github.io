@@ -1,11 +1,116 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>郭宇｜个人网站</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yu Guo is a postdoctoral fellow studying platform operations, digital marketplaces, and technology-enabled service systems.">
+  <title>Yu Guo | Operations Management</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
-<body>
-  <h1>你好，我是郭宇</h1>
-  <p>这是我的个人求职网站。</p>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Yu Guo, home">
+        <span class="brand-mark">YG</span><span>Yu Guo</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a data-nav="home" href="index.html">About</a>
+        <a data-nav="research" href="research.html">Research</a>
+        <a data-nav="experience" href="experience.html">Experience</a>
+        <a data-nav="talks" href="talks.html">Talks</a>
+        <a data-nav="honors" href="honors.html">Honors</a>
+        <a data-nav="cv" href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <aside class="profile-card" aria-label="Profile">
+      <div class="portrait-placeholder" aria-label="Portrait placeholder">YG</div>
+      <p class="eyebrow">Operations Management</p>
+      <h1>Yu Guo <span lang="zh-CN">郭宇</span></h1>
+      <p class="role">Postdoctoral Fellow<br>The Chinese University of Hong Kong</p>
+      <div class="profile-meta">
+        <span>Hong Kong, China</span>
+        <a href="mailto:yuguo001@cuhk.edu.hk">yuguo001@cuhk.edu.hk</a>
+      </div>
+      <div class="profile-actions">
+        <a class="button button-primary" href="cv.html">View CV</a>
+        <a class="button button-quiet" href="mailto:yuguo001@cuhk.edu.hk">Email</a>
+      </div>
+    </aside>
+
+    <main id="main-content" class="content">
+      <section class="hero">
+        <p class="kicker">Welcome</p>
+        <h2>Researching how digital platforms make better operational decisions.</h2>
+        <p class="lead">I am a Postdoctoral Fellow at The Chinese University of Hong Kong, working with <a href="https://sites.google.com/view/kete" target="_blank" rel="noreferrer">Tony Ke</a>. My research sits at the intersection of operations management, digital marketplaces, and technology-enabled service systems.</p>
+        <p>I study on-demand delivery, platform fulfillment, AI-generated information, and online advertising. My work combines analytical modeling with data-driven insights to understand how new technologies reshape consumer behavior and platform operations.</p>
+        <div class="hero-links">
+          <a class="text-link" href="research.html">Explore my research <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="experience.html">Academic background <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="section-heading">
+          <p class="kicker">Featured work</p>
+          <h2>Job market paper</h2>
+        </div>
+        <article class="feature-card">
+          <div>
+            <span class="status-pill">Job Market Paper</span>
+            <h3>Food Locker Operations in On-Demand Delivery</h3>
+            <p class="authors"><strong>Yu Guo</strong>, Fei Gao, Wenchang Zhang, and Liu Ming</p>
+            <p>This project examines food-locker operations in last-mile, on-demand delivery and their implications for platform fulfillment decisions.</p>
+          </div>
+          <a class="arrow-link" href="research.html#working-papers" aria-label="Read more about Food Locker Operations">↗</a>
+        </article>
+      </section>
+
+      <section class="section-block">
+        <div class="section-heading with-action">
+          <div>
+            <p class="kicker">Selected updates</p>
+            <h2>News</h2>
+          </div>
+          <a class="text-link" href="talks.html">All talks</a>
+        </div>
+        <ol class="news-list">
+          <li>
+            <time datetime="2026-08">Aug 2026</time>
+            <p>Joined The Chinese University of Hong Kong as a Postdoctoral Fellow.</p>
+          </li>
+          <li>
+            <time datetime="2026">2026</time>
+            <p>“Omnichannel Operations in On-Demand Delivery Platform with Buy-Online-and-Pick-up-in-Store” is forthcoming in <em>Manufacturing &amp; Service Operations Management</em>.</p>
+          </li>
+          <li>
+            <time datetime="2026">2026</time>
+            <p>“Consumer Search and Information Design with AI-Generated Overviews” was selected for presentation at the Workshop on AI-Driven Research at the OM–Marketing Interface.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact-banner">
+        <div>
+          <p class="kicker">Contact</p>
+          <h2>Interested in discussing research or collaboration?</h2>
+        </div>
+        <a class="button button-light" href="mailto:yuguo001@cuhk.edu.hk">Get in touch</a>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>© <span data-current-year>2026</span> Yu Guo</p>
+    <p>Built for GitHub Pages · Last updated August 2026</p>
+  </footer>
 </body>
 </html>
