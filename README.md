@@ -1,15 +1,22 @@
-# Yu Guo — Academic Website
+# Yu Guo Academic Website
 
-Static academic website prepared for GitHub Pages.
+This folder contains the final files for GitHub Pages.
 
-## Publish
+## Upload to GitHub
 
-Upload every file in this folder to the root of the `joeyyuguo.github.io` repository. In GitHub, open **Settings → Pages**, choose **Deploy from a branch**, then select the `main` branch and `/(root)` folder.
+Upload the following files directly to the root of the `joeyyuguo.github.io` repository:
 
-## Update
+- `index.html`
+- `research.html`
+- `experience.html`
+- `talks.html`
+- `honors.html`
+- `404.html`
+- `styles.css`
+- `script.js`
+- `favicon.svg`
+- `Yu_Guo_CV.pdf`
 
-- Replace the `YG` portrait placeholder in each page with a professional headshot when available.
-- Update the public email consistently across all HTML files if needed.
-- Use **CV → Print / Save as PDF** to create a clean PDF from the browser.
+In **Settings → Pages**, select **Deploy from a branch**, `main`, and `/(root)`.
 
-Private phone numbers and referee contact details from the source CV are intentionally not published.
+The CV links open `Yu_Guo_CV.pdf` directly in a new browser tab. There is no generated `cv.html` page.
