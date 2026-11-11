@@ -27,19 +27,6 @@ document.querySelectorAll(".avatar img").forEach((image) => {
   }
 });
 
-document.querySelectorAll("[data-photo-frame]").forEach((frame) => {
-  const image = frame.querySelector("img");
-  if (!image) return;
-
-  const showPhoto = () => frame.classList.add("has-photo");
-
-  if (image.complete && image.naturalWidth > 0) {
-    showPhoto();
-  } else {
-    image.addEventListener("load", showPhoto, { once: true });
-  }
-});
-
 document.querySelectorAll("[data-current-year]").forEach((element) => {
   element.textContent = String(new Date().getFullYear());
 });
