@@ -45,6 +45,7 @@ a:hover { color: #000; text-decoration-color: #000; }
 .plain-entry p { margin-bottom: 4px; }
 .note { color: #555; }
 .footnote { color: var(--muted); font-size: 13px; }
+sup { line-height: 0; }
 
 .dated-list { margin: 0; padding: 0; list-style: none; }
 .dated-list li { display: grid; grid-template-columns: 90px 1fr; gap: 18px; padding: 10px 0; border-bottom: 1px solid #eee; }
